@@ -1,1 +1,8 @@
+# Example configuration file for JWST Data Tracker
 
+programs:
+  - "2733"   # Example public JWST program ID
+
+targets:
+  - name: "NGC 104"
+    radius: "0.1 deg"

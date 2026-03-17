@@ -1,0 +1,17 @@
+[project]
+name = "jwst-data-tracker"
+version = "0.1.0"
+description = "Automated JWST data discovery, download, and cataloging pipeline"
+requires-python = ">=3.9"
+dependencies = [
+  "astroquery",
+  "astropy",
+  "pandas",
+  "matplotlib",
+  "seaborn",
+  "pyyaml",
+  "click",
+]
+
+[project.scripts]
+jwst-tracker = "jwst_tracker.cli:main"

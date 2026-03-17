@@ -1,0 +1,7 @@
+astroquery
+astropy
+pandas
+matplotlib
+seaborn
+pyyaml
+click
